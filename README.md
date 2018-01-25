@@ -35,7 +35,7 @@ python task.py \
 		--task-time 2000 \
 		--max-steps 30000 \
 		--input-style combined \
-	 	--tasks dog
+	 	--tasks dog id ref
 ```
 
 - **task-time** How many training steps to perform on each task
