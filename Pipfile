@@ -15,6 +15,7 @@ tensorflow = "*"
 opencv-python = "*"
 pandas = "*"
 numpy = "*"
+floyd-cli = "*"
 
 
 [requires]

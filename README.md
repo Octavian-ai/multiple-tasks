@@ -1,14 +1,14 @@
 
 # Learning multiple tasks with gradient descent
 
-This is the companion code for [this medium article](https://medium.com/p/23447735519b/edit) and
-can be run on [FloydHub](https://www.floydhub.com/davidmack/projects/mnist-forget).
+This is the companion code for [this medium article](https://medium.com/p/23447735519b) and
+can be run on [FloydHub](https://www.floydhub.com/davidmack/projects/multiple-tasks).
 
 This code sets up a convolutional network that is sequentially trained on a series of different tasks. By varying which tasks are trained against and how long is spent on each task I've been able to investigate which factors improve the network's test accuracy on the different tasks.
 
 ## Preliminary results
 
-This is a small first step into investigating multi-task learning. I've copied the abstract from [the accompanying article](https://medium.com/p/23447735519b/edit), it has a lot more charts and detail explaining these observations:
+This is a small first step into investigating multi-task learning. I've copied the abstract from [the accompanying article](https://medium.com/p/23447735519b), it has a lot more charts and detail explaining these observations:
 
 > Learning multiple tasks is an important requirement for artificial general intelligence. I apply a basic convolutional network to two different tasks. The network is shown to exhibit successful multi-task learning. The frequency of task switchover is shown to be a crucial factor in the rate of network learning. Stochastic Gradient Descent is shown to be better at multi-task learning than Adam. Narrower networks are more forgetful.
 
