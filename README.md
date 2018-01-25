@@ -27,7 +27,7 @@ I’m using a very simple network for these experiments:
 You can run this code locally (`pipenv install` will set up dependencies, then `./train.py`) or on FloydHub (`./floyd-run.sh`).
 
 Here's an example of running the code:
-`
+```
 python task.py \
 		--log-dir /output \
 		--data-dir /data-mnist/MNIST_data --data-dog-dir /data-dog \
@@ -36,7 +36,7 @@ python task.py \
 		--max-steps 30000 \
 		--input-style combined \
 	 	--tasks dog
-`
+```
 
 - **task-time** How many training steps to perform on each task
 - **max-steps** Total number of training steps to perform
